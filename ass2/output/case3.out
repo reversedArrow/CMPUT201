@@ -1,0 +1,21 @@
+Choosing point 0 as the root ...
+point 1 has a distance 90 to the tree, parent 0;
+point 2 has a distance 170 to the tree, parent 0;
+point 3 has a distance 155 to the tree, parent 0;
+point 4 has a distance 60 to the tree, parent 0;
+point 5 has a distance 100 to the tree, parent 0;
+point 6 has a distance 160 to the tree, parent 0;
+point 7 has a distance 140 to the tree, parent 0;
+point 8 has a distance 100 to the tree, parent 0;
+point 9 has a distance 45 to the tree, parent 0;
+#Edges of the MST by Prim’s algorithm:
+0	9	45
+9	4	45
+4	5	40
+5	7	40
+7	6	20
+6	2	10
+7	8	40
+5	1	50
+8	3	55
+The total length of the MST is 345.

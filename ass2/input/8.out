@@ -1,0 +1,69 @@
+##################################################
+#case8.in
+#area [0, MAX_X] x [0, MAX_Y]
+100	100
+#number of points NUM_PT
+20
+#coordinates
+99	26
+78	9
+13	85
+78	65
+6	2
+21	32
+21	0
+9	81
+46	37
+8	37
+49	96
+88	100
+72	26
+84	88
+75	36
+22	88
+39	100
+31	76
+83	27
+67	13
+#end of instance
+Choosing point 0 as the root ...
+Point 1 has a distance 38 to the tree, parent 0;
+Point 2 has a distance 145 to the tree, parent 0;
+Point 3 has a distance 60 to the tree, parent 0;
+Point 4 has a distance 117 to the tree, parent 0;
+Point 5 has a distance 84 to the tree, parent 0;
+Point 6 has a distance 104 to the tree, parent 0;
+Point 7 has a distance 145 to the tree, parent 0;
+Point 8 has a distance 64 to the tree, parent 0;
+Point 9 has a distance 102 to the tree, parent 0;
+Point 10 has a distance 120 to the tree, parent 0;
+Point 11 has a distance 85 to the tree, parent 0;
+Point 12 has a distance 27 to the tree, parent 0;
+Point 13 has a distance 77 to the tree, parent 0;
+Point 14 has a distance 34 to the tree, parent 0;
+Point 15 has a distance 139 to the tree, parent 0;
+Point 16 has a distance 134 to the tree, parent 0;
+Point 17 has a distance 118 to the tree, parent 0;
+Point 18 has a distance 17 to the tree, parent 0;
+Point 19 has a distance 45 to the tree, parent 0;
+#Edges of the MST by Prim’s algorithm:
+0	18	17
+18	12	12
+12	14	13
+12	19	18
+19	1	15
+14	8	30
+8	5	30
+5	9	18
+5	6	32
+6	4	17
+14	3	32
+3	13	29
+13	11	16
+13	10	43
+10	16	14
+16	15	29
+15	2	12
+2	7	8
+15	17	21
+The total length of the MST is 406.
