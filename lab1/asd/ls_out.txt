@@ -1,0 +1,94 @@
+total 528K
+-rw-------+ 1 xianhang ugrad 2.8K Oct  5  2016 175 Assignment 1.py
+-rw-------+ 1 xianhang ugrad  342 Nov 30  2016 Bear.gif
+-rw-------+ 1 xianhang ugrad  342 Nov 30  2016 BearF.gif
+-rw-------+ 1 xianhang ugrad 1.7K Nov 30  2016 BearM.gif
+drwx------+ 5 xianhang ugrad   11 Sep 15 15:08 C201
+-rw-------+ 1 xianhang ugrad  945 Sep 14  2016 CMPUT175 lab1.py
+-rw-------+ 1 xianhang ugrad  521 Oct  5  2016 Course .py
+drwx------+ 3 xianhang ugrad    5 Mar 29 14:52 Desktop
+drwx------+ 2 xianhang ugrad   63 Mar 29 12:45 Downloads
+-rw-------+ 1 xianhang ugrad 1.7K Oct  5  2016 Exercise_skeleton.py
+-rw-------+ 1 xianhang ugrad  909 Oct  5  2016 ExpectedOutput.txt.txt
+-rw-------+ 1 xianhang ugrad  293 Nov 30  2016 Fish.gif
+-rw-------+ 1 xianhang ugrad  22K Dec  7  2016 GK.html
+-rw-------+ 1 xianhang ugrad 4.4K Dec  7  2016 GradDB.html
+-rw-------+ 1 xianhang ugrad    0 Jan 19  2016 Hacking version 1.py
+-rw-------+ 1 xianhang ugrad    0 Jan 26  2016 Hacking version 2.py
+-rw-------+ 1 xianhang ugrad 1.1K Feb  2  2016 Hacking.py
+-rw-------+ 1 xianhang ugrad 2.9K Apr  2  2016 Key Motion.py
+-rw-------+ 1 xianhang ugrad 7.3K Mar 29  2016 LA.py
+-rw-------+ 1 xianhang ugrad 3.0K Mar 29  2016 Memory 1 cp.py
+-rw-------+ 1 xianhang ugrad 3.5K Mar 22  2016 Memory 1.py
+-rw-------+ 1 xianhang ugrad 4.6K Mar 29  2016 Memory 2.py
+-rw-------+ 1 xianhang ugrad 7.3K Apr 12  2016 Memory V3.py
+-rw-------+ 1 xianhang ugrad 2.2K Apr  2  2016 Mouse Motion.py
+drwx------+ 2 xianhang ugrad    2 Jan  5  2016 Music
+drwx------+ 2 xianhang ugrad    2 Jan  5  2016 Pictures
+-rw-------+ 1 xianhang ugrad  354 Nov 30  2016 Plant.gif
+-rw-------+ 1 xianhang ugrad 3.2K Feb  9  2016 Pong final.py
+-rw-------+ 1 xianhang ugrad 3.2K Mar  1  2016 Pong.py
+drwx------+ 2 xianhang ugrad    2 Jan  5  2016 Public
+-rw-------+ 1 xianhang ugrad   42 Jan 26  2016 Quiz test.py
+-rw-------+ 1 xianhang ugrad  353 Oct  5  2016 StudentList.txt
+-rw-------+ 1 xianhang ugrad 4.5K Oct  5  2016 Student_skeleton.py
+-rw-------+ 1 xianhang ugrad 1.5K Sep 21  2016 SubCipher.py
+-rw-------+ 1 xianhang ugrad 5.2K Mar 15  2016 TTT V1 complete .py
+-rw-------+ 1 xianhang ugrad 8.3K Apr 12  2016 TTT V1.py
+-rw-------+ 1 xianhang ugrad 8.3K Apr 12  2016 TTT V3.py
+drwx------+ 2 xianhang ugrad    2 Jan  5  2016 Templates
+-rw-------+ 1 xianhang ugrad  594 Jan 26  2016 The Number Game.py
+-rw-------+ 1 xianhang ugrad 1.6K Oct  5  2016 University_skeleton.py
+drwx------+ 2 xianhang ugrad    2 Jan  5  2016 Videos
+-rw-------+ 1 xianhang ugrad  514 Nov  2  2016 X.txt
+drwx------+ 2 xianhang ugrad   10 Nov 16  2016 __pycache__
+-rw-------+ 1 xianhang ugrad    0 Sep 21  2016 aaa~
+-rw-------+ 1 xianhang ugrad   20 Sep 21  2016 asd.txt
+-rw-------+ 1 xianhang ugrad   20 Sep 21  2016 asd~
+drwx------+ 3 xianhang ugrad    9 Dec  6  2016 assignment 5
+drwx------+ 3 xianhang ugrad    9 Dec  6  2016 assignment 5 sample
+-rw-------+ 1 xianhang ugrad 3.0K Nov  2  2016 assignment3.py
+-rw-------+ 1 xianhang ugrad 4.8K Nov 19  2016 assignment4.py
+-rw-------+ 1 xianhang ugrad  16K Jul  6  2015 cImage.py
+-rw-------+ 1 xianhang ugrad 2.1K Apr  5  2016 car.py
+-rw-------+ 1 xianhang ugrad 2.6K Nov  2  2016 decipher.py
+-rw-------+ 1 xianhang ugrad 9.2K Nov 30  2016 ecosystem.py
+-rw-------+ 1 xianhang ugrad  813 Sep 14  2016 find a file.py
+-rw-------+ 1 xianhang ugrad  40K Apr 12  2016 image0.bmp
+-rw-------+ 1 xianhang ugrad  40K Apr 12  2016 image1.bmp
+-rw-------+ 1 xianhang ugrad  40K Apr 12  2016 image2.bmp
+-rw-------+ 1 xianhang ugrad  40K Apr 12  2016 image3.bmp
+-rw-------+ 1 xianhang ugrad  40K Apr 12  2016 image4.bmp
+-rw-------+ 1 xianhang ugrad  40K Apr 12  2016 image5.bmp
+-rw-------+ 1 xianhang ugrad  40K Apr 12  2016 image6.bmp
+-rw-------+ 1 xianhang ugrad  40K Apr 12  2016 image7.bmp
+-rw-------+ 1 xianhang ugrad  40K Apr 12  2016 image8.bmp
+-rw-------+ 1 xianhang ugrad 3.2K Oct 30  2016 k-colouring.py
+-rw-------+ 1 xianhang ugrad 5.9K Oct 16  2016 kmeans.py
+-rw-------+ 1 xianhang ugrad 1.8K Sep 21  2016 lab 3,encode file.py
+-rw-------+ 1 xianhang ugrad 1.2K Sep 21  2016 lab 3.py
+-rw-------+ 1 xianhang ugrad 4.0K Oct 12  2016 lab 6 .py
+-rw-------+ 1 xianhang ugrad 3.8K Mar 29  2016 lab ex 1 .py
+-rw-------+ 1 xianhang ugrad 1.2K Nov 16  2016 lab10.py
+-rw-------+ 1 xianhang ugrad  12K Dec  4  2016 lab11.py
+-rw-------+ 1 xianhang ugrad  122 Sep 14  2016 lab2 debug.py
+-rw-------+ 1 xianhang ugrad 1.2K Sep 14  2016 lab2 my version.py
+-rw-------+ 1 xianhang ugrad  521 Sep 14  2016 lab2 promp.py
+-rw-------+ 1 xianhang ugrad  993 Oct 26  2016 lab8.py
+-rw-------+ 1 xianhang ugrad 1.1K Nov 16  2016 llsystem.py
+-rw-------+ 1 xianhang ugrad 2.1K Nov 16  2016 lsystem.py
+-rw-------+ 1 xianhang ugrad  55K Oct  6  2016 mandrill.gif
+-rw-------+ 1 xianhang ugrad 1.8K Dec  7  2016 myparser.py
+-rw-------+ 1 xianhang ugrad 2.8K Oct 19  2016 oct 19 lab.py
+-rw-------+ 1 xianhang ugrad  814 Sep 21  2016 os find file.py
+-rw-------+ 1 xianhang ugrad  88K Oct 30  2016 playfair.txt
+-rw-------+ 1 xianhang ugrad 4.5K Apr 12  2016 pong V2 complete.py
+-rw-------+ 1 xianhang ugrad  474 Oct 12  2016 sample.txt
+-rw-------+ 1 xianhang ugrad 1.9K Oct 19  2016 sub.py
+-rw-------+ 1 xianhang ugrad 3.2K Nov  2  2016 subcrack9.py
+-rw-------+ 1 xianhang ugrad   96 Dec  7  2016 test.html
+-rw-------+ 1 xianhang ugrad  540 Oct 26  2016 test_cases.txt
+-rw-------+ 1 xianhang ugrad  538 Oct 26  2016 test_cases.txt~
+-rw-------+ 1 xianhang ugrad  133 Nov 16  2016 turtle motion.py
+-rw-------+ 1 xianhang ugrad 332K Oct 19  2016 wells.txt
+-rw-------+ 1 xianhang ugrad 361K Oct 30  2016 wordlist.txt

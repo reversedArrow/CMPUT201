@@ -1,0 +1,19 @@
+#include<stdio.h>
+
+int main(){
+  int i,n = 0,a = 1;
+  int array[9];
+	 
+  for (i = 9;i>=0 ; i--, n++){
+    //if(i ==  (-1)){
+    //i = 9;
+    //}
+    array[i] = a;
+    a++;}
+
+  for (i = 0; i<9; i++){
+    printf("%d\t",array[i]);}
+  printf("\n");
+  return 0;
+}
+	 

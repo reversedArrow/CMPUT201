@@ -1,0 +1,29 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+void pb(int n);
+
+int main()
+{
+    int n;
+    printf("Enter a number: ");
+    scanf("%d", &n);
+    pb(n);
+    printf("\n");
+    return 0;
+}
+
+/*
+    This function is a recursive. If n is 1, 1/2=0, thus, the result is '1' which has
+    only one character. If n is 2, 2/2=1, 1/2=0, thus, the result is '10' which has two
+    character.
+*/
+void pb(int n)
+{
+    if(n!=0)
+    {
+        pb(n/2);
+        putchar('0'+n%2);
+    }
+    
+}

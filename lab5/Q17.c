@@ -1,0 +1,79 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+
+
+void init_array(int array[], int length){
+  for(int i=0; i<length; i++){
+    array[i]=0;
+  }
+}
+
+
+
+int main(){
+
+  int n,i,j;
+  //int a[99][99];
+
+  printf("This program creates a magic square of a specified size.\n");
+  printf("This size must be an odd number between 1 and 99.\n");
+  printf("Enter size of magic square:");
+  scanf("%d",&n);
+  if (n%2 == 0 || n<1 || n>99){
+    printf("invalid size\n");
+    return -1;
+  }
+  int matrix[n][n];
+
+  for(int i=0; i<n; i++)
+    {
+      init_array(matrix[i], n);
+    }
+
+  
+
+  int row = 0, col = n/2;
+
+  matrix[0][col] = 1;
+  
+  int exrow = row;
+  int excol = col;
+
+  for (i=1; i<n*n; i++){
+
+    row--;
+    col++;
+    if (row<0)
+      row = n-1;
+    if (col>n-1)
+      col = 0;
+    if (matrix[row][col]!=0){
+      exrow++;
+      if (exrow>n){
+	exrow = 0;
+      }
+      row = exrow;
+      col = excol;
+    }
+    printf("number %d row %d col %d\n",i+1,row,col);
+    matrix[row][col] = i+1;
+    
+       //continue;}
+  }
+
+  for (i = 0; i<n; i++){
+     for (j = 0; j<n; j++){
+        printf("%d\t",matrix[i][j]);
+	}
+         printf("\n");
+  }
+
+  return 0;
+}
+
+
+
+    
+
+  
