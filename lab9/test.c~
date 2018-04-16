@@ -1,0 +1,13 @@
+#include<stdio.h>
+
+int main(){
+  float i;
+  int j;
+  double k;
+  i = 1;
+  j = 2.2;
+  k = i+j;
+  
+  printf("%1f\n",k);
+  return 0;
+}

@@ -1,0 +1,67 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+int read_line(char str[], int n);
+int compare(const void *x, const void *y);
+
+int main(void){
+    //char str[20][21];
+  int i,j,co, out;
+  char temp[21];
+    //char *words[20], temp[20];
+    //char **str = (char **)malloc(1000*sizeof(char));
+    //char **str = (char **)malloc(sizeof(char*));
+  char **str = NULL;
+  //char store[21];
+  //for(i = 0;i<21;i++)
+  //str[i]=(char *)malloc(21*sizeof(char *));
+    
+    for (i = 0;;i++){
+        printf("Enter a word: ");
+        out = read_line(temp,21);
+	
+	str = realloc(str,(i+1)*sizeof(char*));
+	str[i] = malloc(21);
+	strcpy(str[i],temp);
+        if (out == 0)
+	  break;
+        //*(words + i) = (char * )malloc(out* sizeof(char *));
+        //strcpy(*(words + i),store);
+    }
+    co = i;
+//    for (i = 0; i<co - 1; i++){
+//        for (j = i + 1; j<co; j++){
+//            if (strcmp(*(words + i), *(words + j))>0){
+//                strcpy(temp, *(words + i));
+//                strcpy(*(words + i), *(words + j));
+//                strcpy(*(words + j), temp);
+//            }
+//        }
+//    }
+    
+    qsort(str,co,sizeof(char *), compare);
+    printf("In sorted order: ");
+    for (j = 0; j < co; j++){
+        printf("%s     ",str[j]);
+    }
+    printf("\n");
+    
+    //    for (i,j=0 ;i>0;i--,j++)printf("%s\n",str[j]);
+    
+    for(i=0;i<co;i++)
+    {
+        free(str[i]);
+    }
+}
+
+int read_line(char str[], int n){
+    int ch, i = 0;
+    while ((ch = getchar())!= '\n')
+        if (i<n)    str[i++] = ch;
+    str[i] = '\0';
+    return i;
+}
+int compare(const void *x, const void *y){
+    return strcmp(*(char **)x,*(char **)y);
+}
