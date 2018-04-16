@@ -1,0 +1,7 @@
+100, 0.09, 0 mins 0.01sec; 0 mins 0.01sec.
+200, 0.09, 0 mins 0.01sec; 0 mins 0.01sec.
+300, 0.09, 0 mins 0.01sec; 0 mins 0.01sec.
+400, 0.09, 0 mins 0.01sec; 0 mins 0.01sec.
+600, 0.09, 0 mins 0.01sec; 0 mins 0.01sec.
+800, 0.09, 0 mins 0.02sec; 0 mins 0.01sec.
+1000, 0.09, 0 mins 0.02sec; 0 mins 0.01sec.

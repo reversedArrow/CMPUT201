@@ -1,0 +1,54 @@
+./test -i case1.in -o 1.out
+./test -i case2.in -o 2.out
+./test -i case3.in -o 3.out
+./test -i case4.in -o 4.out
+./test -i case5.in -o 5.out
+./test -i case6.in -o 6.out
+./test -i case7.in -o 7.out
+./test -i case8.in -o 8.out
+./test -i case9.in -o 9.out
+./test -i case10.in -o 10.out
+cp case1.in ../input_after/
+cp case2.in ../input_after/
+cp case3.in ../input_after/
+cp case4.in ../input_after/
+cp case5.in ../input_after/
+cp case6.in ../input_after/
+cp case7.in ../input_after/
+cp case8.in ../input_after/
+cp case9.in ../input_after/
+cp case10.in ../input_after/
+cp 1.out ../output
+cp 2.out ../output
+cp 3.out ../output
+cp 4.out ../output
+cp 5.out ../output
+cp 6.out ../output
+cp 7.out ../output
+cp 8.out ../output
+cp 9.out ../output
+cp 10.out ../output
+cd ..
+cd input_after/
+diff case1.in case_after1.in
+diff case2.in case_after2.in
+diff case3.in case_after3.in
+diff case4.in case_after4.in
+diff case5.in case_after5.in
+diff case6.in case_after6.in
+diff case7.in case_after7.in
+diff case8.in case_after8.in
+diff case9.in case_after9.in
+diff case10.in case_after10.in
+cd ..
+cd output/
+diff 1.out case1.out
+diff 2.out case2.out
+diff 3.out case3.out
+diff 4.out case4.out
+diff 5.out case5.out
+diff 6.out case6.out
+diff 7.out case7.out
+diff 8.out case8.out
+diff 9.out case9.out
+diff 10.out case10.out
