@@ -1,0 +1,257 @@
+
+==========
+Following are the results of testing your code:
+==========
+
+==========
+test01.in:
+Your output ...
+./myprogram[-i inputfile [-o outputfile]]
+
+
+Expected output ...
+myprogram [-i inputfile [-o outputfile]]
+
+test01 grade: 1/1
+==========
+
+
+==========
+test02.in:
+Your output ...
+##################################################
+#data/instances/instance10_001.txt
+#area [0, MAX_X] x [0, MAX_Y]
+1000	1000
+#number of points NUM_PT
+10
+#coordinates
+0	0
+0	90
+70	100
+100	50
+30	30
+30	70
+70	70
+70	30
+50	50
+4	1000
+#end of instance
+Expected output ...
+1000 1000
+10
+0 0
+0 90
+70 100
+100 50
+30 30
+30 70
+70 70
+70 30
+50 50
+4 1000
+
+test02 grade: 0/1
+==========
+
+
+==========
+test03.in:
+Your output ...
+File structure error.   max_y not following max_x 
+Expected output ...
+Error in reading the instance file!
+
+test03 grade: 1/1
+==========
+
+
+==========
+test04.in:
+Your output ...
+More than two integer values for the coordinate
+Expected output ...
+Error in reading the instance file!
+
+test04 grade: 1/1
+==========
+
+
+==========
+test05.in:
+Your output ...
+Duplicated points.
+Expected output ...
+Error in reading the instance file!
+
+test05 grade: 1/1
+==========
+
+
+==========
+test06.in:
+Your output ...
+More than 10 points! 
+Expected output ...
+Error in reading the instance file!
+
+test06 grade: 1/1
+==========
+
+
+==========
+test07.in:
+Your output ...
+no integer to read, less than 10 points
+Expected output ...
+Error in reading the instance file!
+
+test07 grade: 1/1
+==========
+
+
+==========
+test08.in:
+Your output ...
+Generate random instances...
+Enter the circuit board size MAX_X MAX_Y(0-1000): Enter the number of points NUM_PT(0-10000): Enter the number of random instances to be generated: area is not enough for 10 points
+Expected output ...
+Error in generating instances!
+
+test08 grade: 1/1
+==========
+
+
+==========
+test09.in:
+Your output ...
+Generate random instances...
+Enter the circuit board size MAX_X MAX_Y(0-1000): Enter the number of points NUM_PT(0-10000): Enter the number of random instances to be generated: instance5_1.txt generated
+instance5_2.txt generated
+instance5_3.txt generated
+instance5_4.txt generated
+instance5_5.txt generated ... done !
+Expected 5 instances with each having 5 points being generated...
+Testing the correctness of your instances ...
+instance5_1...
+50 100
+5
+10 32
+9 12
+32 56
+37 30
+45 94
+instance5_2...
+50 100
+5
+5 39
+20 19
+29 91
+45 5
+40 34
+instance5_3...
+50 100
+5
+35 58
+36 51
+14 65
+8 7
+31 10
+instance5_4...
+50 100
+5
+17 18
+27 71
+23 61
+37 5
+4 70
+instance5_5...
+50 100
+5
+3 0
+36 29
+2 93
+20 87
+44 75
+
+test09 grade: 1/1
+==========
+
+
+==========
+test10_1.in:
+Your output ...
+##################################################
+#data/instances/instance10_001.txt
+#area [0, MAX_X] x [0, MAX_Y]
+1000	1000
+#number of points NUM_PT
+10
+#coordinates
+0	0
+0	90
+70	100
+100	50
+30	30
+30	70
+70	70
+70	30
+50	50
+4	1000
+#end of instance
+
+Expected output ...
+1000 1000
+10
+0 0
+0 90
+70 100
+100 50
+30 30
+30 70
+70 70
+70 30
+50 50
+4 1000
+
+test10_2.in:
+Your output ...
+##################################################
+#data/instances/instance10_001.txt
+#area [0, MAX_X] x [0, MAX_Y]
+1000	1000
+#number of points NUM_PT
+10
+#coordinates
+0	0
+0	90
+70	100
+100	50
+30	30
+30	70
+70	70
+70	30
+50	50
+4	1000
+#end of instance
+
+Expected output ...
+1000 1000
+10
+0 0
+0 90
+70 100
+100 50
+30 30
+30 70
+70 70
+70 30
+50 50
+4 1000
+
+test10 grade: 1/1
+
+
+Total grade is 9/10
+==========
+

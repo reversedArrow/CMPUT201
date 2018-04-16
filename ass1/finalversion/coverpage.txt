@@ -1,0 +1,53 @@
+/* CMPUT 201 Assignments */
+/* Dues: */
+/* #1: 11:55pm, October 9, 2017; */
+/* #2: 11:55pm, November 13, 2017; */
+/* #3: 11:55pm, December 8, 2017 */
+
+
+
+(Mandatory assignment cover-sheet; without it, your work will not be marked.)
+
+
+
+
+Submitting student:
+
+
+
+Xianhang Li
+
+
+
+
+Collaborating classmates:
+
+
+
+
+
+Other collaborators:
+
+
+
+
+
+References (excluding textbook and lecture slides):
+
+
+
+
+
+
+
+
+
+Regardless of the collaboration method allowed, you must always properly acknowledge the sources you
+used and people you worked with. Your professor reserves the right to give you an exam (oral, written,
+or both) to determine the degree that you participated in the making of the deliverable, and how well
+you understand what was submitted. For example, you may be asked to explain any solution that was
+submitted and why you choose to write it that way. This may impact the mark that you receive for the
+deliverable.
+So, whenever you submit a deliverable, especially if you collaborate, you should be prepared for an
+individual inspection/walkthrough in which you explain what every line of assignment does and why you
+choose to write it that way.

@@ -1,0 +1,12 @@
+##################################################
+#area [0, MAX_X] x [0, MAX_Y]
+2	2
+#number of points NUM_PT
+5
+#coordinates
+2	2
+2	0
+2	1
+1	2
+1	1
+#end of instance

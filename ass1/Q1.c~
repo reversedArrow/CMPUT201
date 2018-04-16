@@ -1,0 +1,19 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+int main(int argc, char*argv[1]){
+  FILE*fp
+    if (argc !=2){
+      printf("myprogram [-i inputfile [-o outputfile]]");
+      return 2;
+    }
+    if ((fp = fopen(argv[1],"r")) == NULL){
+      printf("%s can't be opened\n", argv[1]);
+      return 1;
+    }
+    printf("%s can be opened\n", argv[1]);
+    fclose (fp);
+    return 0;
+}
+
+  
